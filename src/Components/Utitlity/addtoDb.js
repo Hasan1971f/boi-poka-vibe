@@ -21,7 +21,7 @@ const addToStoredReadList = (id)=>{
         storedList.push(id)
 
         const storedListStr = JSON.stringify(storedList)
-        localStorage.setItem(' read-list', storedListStr)
+        localStorage.setItem('read-list', storedListStr)
       }
 }
 export {addToStoredReadList, getStoredReadList}
